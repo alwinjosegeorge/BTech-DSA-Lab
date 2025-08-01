@@ -1,7 +1,8 @@
 #include <stdio.h>
-#define MAX 5
+#include <stdlib.h>
 
-int queue[MAX];
+int MAX;
+int *queue;             // pointer for dynamic array
 int front = -1, rear = -1;
 
 void enqueue(int value) {
@@ -38,7 +39,17 @@ void display() {
 }
 
 int main() {
+    printf("Enter the size of array: ");
+    scanf("%d", &MAX);
+
+    queue = (int*)malloc(MAX * sizeof(int));
+    if (queue == NULL) {
+        printf("Memory allocation failed!\n");
+        return 1;
+    }
+
     int choice, value;
+
     while (1) {
         printf("\n--- Queue Menu ---\n");
         printf("1. Enqueue\n");
@@ -62,10 +73,13 @@ int main() {
                 break;
             case 4:
                 printf("Exiting program.\n");
+                free(queue);  // free allocated memory before exit
                 return 0;
             default:
                 printf("Invalid choice! Please enter a number between 1 and 4.\n");
         }
     }
+
+    free(queue);
     return 0;
 }
