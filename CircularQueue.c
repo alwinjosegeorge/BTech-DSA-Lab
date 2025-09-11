@@ -49,7 +49,7 @@ int main(){
 
 while(1){
         int choice,value;
-        printf("\n---------!Select queue option!---------\n");
+        printf("\nSelect queue option!\n");
         printf("1. Enqueue\t2. Dequeue\t3. Exit\nChoice: ");
         scanf("%d", &choice);
 
