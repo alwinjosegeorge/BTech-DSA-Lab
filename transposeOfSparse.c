@@ -1,17 +1,4 @@
-/*******************************************************
- * --------------------------------------------------- *
- *  Project   : Sparse Matrix                          *
- *  Author    : Ananthakrishnan K V                    *
- *  Version   : 1.1                                    *
- *  Language  : C                                      *
- *  Created   : 28-07-2025                             *
- *  Updated   : 06-08-2025                             *
- *  Purpose   : Program to find the sum of two sparse  *
- *              matrices and transpose the resultant   *
- *              matrix.                                *
- * --------------------------------------------------- *
- *            Let code flow like poetry! 🚀            *
- *******************************************************/
+
 
 #include <stdio.h>
 int n;
