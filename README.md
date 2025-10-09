@@ -44,5 +44,5 @@ BTech-DSA-Lab/
 | Sparse Matrix Transpose | Transposes a sparse matrix efficiently using row–column mapping. | ![Sparse](Screenshort/Screenshot%20%22transposeOfSparse%22.png) |
 | Polynomial (Array) | Performs polynomial addition using array representation. | ![Poly](Screenshort/Screenshort%22Sum%20of%20polynomials%22.png) |
 | Polynomial (Linked List) | Performs polynomial operations using linked list representation. | ![PolyLL](Screenshort/Screenshot%20polynomials%5Blinkedlist%5D.png) |
-| Web Navigation | Simulates forward/backward navigation in a web browser. | ![Web](Screenshort/web.png) |
+| Web Navigation | Simulates forward/backward navigation in a web browser. | ![Web](Screenshort/Screenshot%20%22web.png) |
 
